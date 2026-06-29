@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public string[] roomScenes;//部屋を入れる
     int lastIndex = -1;
     int correctCount = 0;
+    int missCount = 0;//ButEnd分岐に使用
 
     GameObject TrackNo;
 
@@ -43,7 +44,15 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("0番に戻る");
         correctCount = 0;
+        missCount++;
         SceneManager.LoadScene("GameSceneA0");
+        Debug.Log("ミスカウント:" + missCount);
+
+        if (missCount >= 6)//ミスカウントが６以上になったらバットエンドに分岐
+        {
+            SceneManager.LoadScene("ButEndScene");
+            Debug.Log("バットエンド");
+        }
 
     }
 
@@ -67,12 +76,14 @@ public class GameManager : MonoBehaviour
 
         lastIndex = index;
 
-        Debug.Log(correctCount + "番");
+        Debug.Log(correctCount + 1 + "番");
 
         SceneManager.LoadScene(roomScenes[index]);
 
         correctCount++;
     }
+
+   
 
     void Start()
     {
@@ -85,11 +96,15 @@ public class GameManager : MonoBehaviour
 
         if(correctCount == 9)
         {
-            this.TrackNo.GetComponent<TextMeshProUGUI>().text = "?";
+            this.TrackNo.GetComponent<TextMeshProUGUI>().text = " ";
+        }
+
+        if(missCount >=6)
+        {
+            this.TrackNo.GetComponent<TextMeshProUGUI>().text = "[Censored]";
         }
         
     }
 
 
 }
-

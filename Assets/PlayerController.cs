@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     
-    float pspeed = 0.15f;//移動スピードの入る箱
+    float pspeed = 0.10f;//移動スピードの入る箱
 
     AudioSource audioSource;
 
@@ -64,5 +64,6 @@ public class PlayerController : MonoBehaviour
             GameManager.Instance.GoNextRoom();
 
         }
+        
     }
 }
