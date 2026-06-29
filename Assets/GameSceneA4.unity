@@ -1224,6 +1224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   currentRoomType: 0
+  roomScenes: []
 --- !u!1 &1117412468
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,7 +1702,7 @@ SpriteRenderer:
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1212673050000137917, guid: 92ef1ae5ad6cfb248ae675d644eaac04, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5176471}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
