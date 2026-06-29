@@ -5,8 +5,50 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/TitelScene.unity
+    guid: b797dbc7604890c44896b89b7234c0ce
+  - enabled: 1
+    path: Assets/MoveScene.unity
+    guid: ee047c9964bf3b84db1a485ff010bc18
+  - enabled: 1
+    path: Assets/GameSceneA0.unity
+    guid: ee59fd2195c820d49b64c184ff31aefc
+  - enabled: 1
+    path: Assets/GameSceneA1.unity
+    guid: 6228944875f9563498859ffb7315f942
+  - enabled: 1
+    path: Assets/GameSceneA2.unity
+    guid: 3a322f7f8fa8d8b4d96284a9c58fc54e
+  - enabled: 1
+    path: Assets/GameSceneA3.unity
+    guid: d554d9c7b008b0a4e9bfd6f539d32f67
+  - enabled: 1
+    path: Assets/GameSceneA4.unity
+    guid: 385cc4b5d7c75d344a594fcf83a7cb80
+  - enabled: 1
+    path: Assets/GameSceneA5.unity
+    guid: 8916c64df7278e74980ad4e344bec9a7
+  - enabled: 1
+    path: Assets/GameSceneA6.unity
+    guid: 7083e3bda61308b4085cf0170290b4bb
+  - enabled: 1
+    path: Assets/GameSceneA7.unity
+    guid: 5fab6c2cec02c5e4185753142f2ea739
+  - enabled: 1
+    path: Assets/GameSceneA8.unity
+    guid: 189fc595e8b787f488d782cb3470b922
+  - enabled: 1
+    path: Assets/GameSceneA9.unity
+    guid: 02af768d78e6b3740bc100e55fef8b16
+  - enabled: 1
+    path: Assets/GameSceneA10.unity
+    guid: dfcfdb9e09bc612449ed38e9ec9776a1
+  - enabled: 1
+    path: Assets/ClearScene.unity
+    guid: 30b2f0d053690234996a2f8c76c37806
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
