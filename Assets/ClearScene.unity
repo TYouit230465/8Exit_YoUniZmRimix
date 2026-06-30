@@ -1138,8 +1138,8 @@ GameObject:
   m_Component:
   - component: {fileID: 852902605}
   - component: {fileID: 852902604}
-  - component: {fileID: 852902603}
   - component: {fileID: 852902602}
+  - component: {fileID: 852902606}
   m_Layer: 0
   m_Name: Keikyu-1000typeHARIBOTE_0 (7)
   m_TagString: Untagged
@@ -1158,7 +1158,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 1aa197d372861c94eae6ff8505f56f6f, type: 3}
+  m_Resource: {fileID: 8300000, guid: c9a45063db9431e42ad7f929c9e7b01d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1244,18 +1244,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &852902603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852902601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1a2de15a043e7d45b936c8964f20f15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KeikyuController
 --- !u!212 &852902604
 SpriteRenderer:
   serializedVersion: 2
@@ -1324,12 +1312,24 @@ Transform:
   m_GameObject: {fileID: 852902601}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 315.68, y: -3.6, z: 0}
+  m_LocalPosition: {x: 154.13, y: -3.6, z: 0}
   m_LocalScale: {x: 2.3, y: 2.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &852902606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852902601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9cd098928ef95449d6d2850ef37a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeikyuController2
 --- !u!1 &905448499
 GameObject:
   m_ObjectHideFlags: 0
@@ -2210,8 +2210,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1479078899}
   - component: {fileID: 1479078898}
-  - component: {fileID: 1479078897}
   - component: {fileID: 1479078896}
+  - component: {fileID: 1479078900}
   m_Layer: 0
   m_Name: Keikyu-1000typeHARIBOTE_0 (6)
   m_TagString: Untagged
@@ -2316,18 +2316,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1479078897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479078895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1a2de15a043e7d45b936c8964f20f15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KeikyuController
 --- !u!212 &1479078898
 SpriteRenderer:
   serializedVersion: 2
@@ -2396,12 +2384,24 @@ Transform:
   m_GameObject: {fileID: 1479078895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 283.3, y: -3.6, z: 0}
+  m_LocalPosition: {x: 122, y: -3.6, z: 0}
   m_LocalScale: {x: 2.3, y: 2.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1479078900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479078895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9cd098928ef95449d6d2850ef37a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeikyuController2
 --- !u!1 &1539793255
 GameObject:
   m_ObjectHideFlags: 0

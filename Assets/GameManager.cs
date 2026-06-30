@@ -38,23 +38,23 @@ public class GameManager : MonoBehaviour
     {
         currentRoomType = type;
 
-        Debug.Log("現在の部屋タイプ：" + type);
+        
 
     }
 
     public void GoBackToStart()
     {
 
-        Debug.Log("0番に戻る");
+        
         correctCount = 0;
         missCount++;
         SceneManager.LoadScene("GameSceneA0");
-        Debug.Log("ミスカウント:" + missCount);
+        
 
         if (missCount >= 6)//ミスカウントが６以上になったらバットエンドに分岐
         {
             SceneManager.LoadScene("ButEndScene01");
-            Debug.Log("バットエンド1");
+            
         }
 
     }
@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
 
         if (correctCount >= 8)
         {
-            Debug.Log("クリア！");
+            
             if (missCount == 0)
             {
                 
@@ -89,7 +89,6 @@ public class GameManager : MonoBehaviour
 
         lastIndex = index;
 
-        Debug.Log(correctCount + 1 + "番");
 
         SceneManager.LoadScene(roomScenes[index]);
 
@@ -121,7 +120,7 @@ public class GameManager : MonoBehaviour
         if (Keyboard.current.backspaceKey.isPressed)//バックスペースキー押したら隠しBatEnd
         {
             SceneManager.LoadScene("ButEndScene02");
-            Debug.Log("バットエンド2");
+            
         }
 
 
