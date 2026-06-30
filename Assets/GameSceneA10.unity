@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3163063247614938843, guid: 61bd1bb486424ae42875a0b19e534d9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.35
+      value: -0.33
       objectReference: {fileID: 0}
     - target: {fileID: 3163063247614938843, guid: 61bd1bb486424ae42875a0b19e534d9a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -395,7 +395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5810818958023212572, guid: 61bd1bb486424ae42875a0b19e534d9a, type: 3}
       propertyPath: m_Color.a
-      value: 0.3882353
+      value: 0.25490198
       objectReference: {fileID: 0}
     - target: {fileID: 5810818958023212572, guid: 61bd1bb486424ae42875a0b19e534d9a, type: 3}
       propertyPath: m_Color.b
@@ -619,7 +619,7 @@ SpriteRenderer:
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6839269526455358440, guid: 0c31db867e4e64743bff376d3daa08b5, type: 3}
-  m_Color: {r: 0.8980392, g: 0.8980392, b: 0.8980392, a: 1}
+  m_Color: {r: 0.94509804, g: 0.94509804, b: 0.94509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -732,7 +732,7 @@ SpriteRenderer:
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6839269526455358440, guid: 0c31db867e4e64743bff376d3daa08b5, type: 3}
-  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
+  m_Color: {r: 0.94509804, g: 0.94509804, b: 0.94509804, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -959,7 +959,7 @@ AudioSource:
   m_Resource: {fileID: 8300000, guid: 1aa197d372861c94eae6ff8505f56f6f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 1.01
   Loop: 0
   Mute: 0
   Spatialize: 0

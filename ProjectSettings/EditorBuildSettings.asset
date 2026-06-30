@@ -51,7 +51,13 @@ EditorBuildSettings:
     path: Assets/ClearScene.unity
     guid: 30b2f0d053690234996a2f8c76c37806
   - enabled: 1
-    path: Assets/ButEndScene.unity
+    path: Assets/ClearScene02.unity
+    guid: 331e80d193f096b469538f7bd780a8cc
+  - enabled: 1
+    path: Assets/ButEndScene01.unity
     guid: 5c8711a34d0c5224b8a2b0f318503122
+  - enabled: 1
+    path: Assets/ButEndScene02.unity
+    guid: a94bec5437262f6468f721ee0f9c134f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

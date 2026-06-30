@@ -1,7 +1,10 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using static UnityEditor.PlayerSettings;
+
 
 
 public class GameManager : MonoBehaviour
@@ -50,8 +53,8 @@ public class GameManager : MonoBehaviour
 
         if (missCount >= 6)//ミスカウントが６以上になったらバットエンドに分岐
         {
-            SceneManager.LoadScene("ButEndScene");
-            Debug.Log("バットエンド");
+            SceneManager.LoadScene("ButEndScene01");
+            Debug.Log("バットエンド1");
         }
 
     }
@@ -63,9 +66,19 @@ public class GameManager : MonoBehaviour
         if (correctCount >= 8)
         {
             Debug.Log("クリア！");
-            SceneManager.LoadScene("ClearScene");
-            correctCount++;
-            return;
+            if (missCount == 0)
+            {
+                
+                SceneManager.LoadScene("ClearScene");
+                correctCount++;
+                return;
+            }
+            else
+            {
+                SceneManager.LoadScene("ClearScene02");
+                correctCount++;
+                return;
+            }
         }
 
         int index;
@@ -103,7 +116,15 @@ public class GameManager : MonoBehaviour
         {
             this.TrackNo.GetComponent<TextMeshProUGUI>().text = "[Censored]";
         }
-        
+
+
+        if (Keyboard.current.backspaceKey.isPressed)//バックスペースキー押したら隠しBatEnd
+        {
+            SceneManager.LoadScene("ButEndScene02");
+            Debug.Log("バットエンド2");
+        }
+
+
     }
 
 
